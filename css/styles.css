@@ -8179,6 +8179,14 @@ textarea.form-control-lg {
     text-align: center !important;
   }
 }
+
+@media all and (min-width: 992px) {
+	.navbar .nav-item .dropdown-menu{ display: none; }
+	.navbar .nav-item:hover .nav-link{   }
+	.navbar .nav-item:hover .dropdown-menu{ display: block; }
+	.navbar .nav-item .dropdown-menu{ margin-top:0; }
+}
+
 @media (min-width: 768px) {
   .float-md-start {
     float: left !important;
