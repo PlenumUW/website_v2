@@ -7,16 +7,10 @@
 
 }
 
-#discord{
+#discord {
     background: #7289DA;
     -webkit-background-clip: text;
     /* Also define standard property for compatibility */
     background-clip: text;
     -webkit-text-fill-color: transparent;
 }
-
-#nav-bar {
-    transition: all 0.4s ease-in-out;
-    -webkit-transition: all 0.4s ease-in-out;
-    -moz-transition: all 0.4s ease-in-out;
- }

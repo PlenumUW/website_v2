@@ -1,55 +1,76 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-    <meta name="description" content="" />
-    <meta name="author" content="" />
-    <title>PLENUM</title>
-    <!-- Favicon-->
-    <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
-    <!-- Core theme CSS (includes Bootstrap)-->
-    <link href="css/styles.css" rel="stylesheet" />
-    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+<meta name="description" content="" />
+<meta name="author" content="" />
+<title>PLENUM</title>
+<!-- Favicon-->
+<link rel="icon" type="image/x-icon" href="assets/plenum-og-logo-raster.png"/>
+<!-- Core theme CSS (includes Bootstrap)-->
+<link href="css/styles.css" rel="stylesheet" />
+<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
 </head>
 <body>
-    <!--Navigation bar-->
-    <nav>
-        <div id="nav-placeholder">
-        </div>
-        <script>
-            $(function(){
-                $("#nav-placeholder").load("nav.html");
-            });
-        </script>
-    </nav>
-    <!--end of Navigation bar-->
+<!--Navigation bar-->
+<nav>
+  <div id="nav-placeholder">
+  </div>
+  <script>
+      $(function(){
+          $("#nav-placeholder").load("nav.html");
+      });
+  </script>
+</nav>
+<!--end of Navigation bar-->
 
-    <div class="py-0 bg-image-full" style="background-image: url('assets/conf.jpg')">
-        <!-- Put anything you want here! The spacer below with inline CSS is just for demo purposes!-->
-        <div style="height: 20rem"></div>
+<div id="paper_subs">
+  <section class="py-5 m-5">
+    <div class="row justify-content-center">
+      <div class="col-lg-9 my-4">
+        <h2>Questions? Comments? Concerns?</h2>
+        <p class="mb-0 my-2"><b>Want feedback on your assignment?</b></p>
+        <p class="mb-0 my-2"> Feel free to DM us on any of our platforms here: Instagram, Twitter , or LinkedIn. Alternatively, you may shoot us an email at plenum@uw.edu and we will process your inquiry as quick as we can.
+        </p>
+      </div>
+      <div class="col-lg-9 my -4">
+        <form action="mailto:plenum@uw.edu" method="POST">
+          <!-- Name input -->
+          <div class="form-outline mb-4">
+            <label class="form-label" for="form4Example1">Name:</label>
+            <input type="text" id="form4Example1" class="form-control" />
+          </div>
+          <!-- Email input -->
+          <div class="form-outline mb-4">
+            <label class="form-label">Email address:</label>
+            <input type="email" class="form-control" />
+          </div>
+          <!-- Message input -->
+          <div class="form-outline mb-4">
+            <label class="form-label">Message:</label>
+            <textarea class="form-control" rows="4"></textarea>
+          </div>
+          <!-- Checkbox -->
+          <div class="form-check d-flex justify-content-center mb-4">
+            <input
+              class="form-check-input me-2"
+              type="checkbox"
+              value=""
+            />
+            <label class="form-check-label">
+              I agree to receiving marketing and promotional materials
+            </label>
+          </div>
+          <!-- Submit button -->
+          <!-- <a href="mailto:plenum@uw.edu" target="_blank" class="btn btn-primary">Send</a> -->
+          <button type="submit" class="btn btn-primary btn-block mb-4">Send</button>
+          </form>
+      </div>
     </div>
 
-    <div id="paper_subs">
-        <section class="py-5 m-5">
-            <form class="">
-                <div class="mb-3">
-                  <label for="exampleInputEmail1" class="form-label">Email address</label>
-                  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-                  <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
-                </div>
-                <div class="mb-3">
-                  <label for="exampleInputPassword1" class="form-label">Password</label>
-                  <input type="password" class="form-control" id="exampleInputPassword1">
-                </div>
-                <div class="mb-3 form-check">
-                  <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                  <label class="form-check-label" for="exampleCheck1">Check me out</label>
-                </div>
-                <button type="submit" class="btn btn-primary">Submit</button>
-              </form>
-        </section>
-    </div>
+  </section>
+</div>
 </body>
 
 
