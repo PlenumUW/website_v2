@@ -6,16 +6,22 @@
         <meta name="description" content="" />
         <meta name="author" content="" />
         <title>PLENUM</title>
-        <!-- Favicon-->
-        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+
+        <link rel="icon" type="image/x-icon" href="assets/plenum-og-logo-raster.png"/>
         <!-- Core theme CSS (includes Bootstrap)-->
         <link href="css/styles.css" rel="stylesheet" />
+        <script src="https://kit.fontawesome.com/5c8b4c15e1.js" crossorigin="anonymous"></script>
+
+        <!-- Personal CSS and Styles -->
+        <link href="css/logo_color.css" rel="stylesheet"/>
+        <script src="js/scripts.js"></script>
     </head>
     <body>
         <!-- Responsive navbar-->
-        <nav id= "nav-bar" class="navbar navbar-expand-xxl fixed-top navbar-light" style="background-color:white; font-size: 15px;">
+        <nav id="nav-bar" class="navbar navbar-expand-xxl fixed-top navbar-light" style="background-color:white; font-size: 15px;">
             <div class="container p-sm-3">
-                <a class="navbar-brand" href="index.html"><b>P L E N U M</b></a>
+                <a href="index.html"><img src= "assets/plenum-og-logo-raster.png" alt="plenum-logo" width="50" height="50"></a>
+                <a class="navbar-brand" href="index.html"></a><b class="px-sm-3">P L E N U M</b></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
@@ -41,7 +47,7 @@
                               <li><a class="dropdown-item" href="assignment_feedback.html">ASSIGNMENT FEEDBACK</a></li>
                             </ul>
                           </li>
-                        <li class="nav-item"><a class="nav-link" href="#!">CONTACT US</a></li>
+                        <li class="nav-item"><a class="nav-link" href="contact_form.html">CONTACT US</a></li>
                     </ul>
                 </div>
             </div>
@@ -51,6 +57,8 @@
             <div class="text-center my-8">
                 <h1 class="text-white fs-3 fw-bolder">The Undergraduate Geography Journal</h1>
                 <p class="text-white-50 mb-0">We are the Undergraduate Geography Journal at the University of Washington, and we are so excited to showcase the work of our bright campus! Welcome to our online platform which hosts our previous and current issues. We hope to grow this online platform and eventually host other geographical forms of work from the UW Geography undergraduate community.</p>
+                <a href="https://discord.gg/WbUJNTjE" target="_blank"><i id="discord" class="fab fa-discord fa-3x px-2 py-4"></i></a>
+                        <a href="https://www.instagram.com/uw_plenum/" target="_blank"><i id="insta" class="fab fa-instagram fa-3x px-2 py-4"></i></a>
             </div>
         </header>
         <!-- Content section-->
@@ -66,18 +74,21 @@
             </div>
         </section>
         <!-- Image element - set the background image for the header in the line below-->
-        <div class="py-5 bg-image-full" style="background-image: url('https://source.unsplash.com/4ulffa6qoKA/1200x800')">
+        <div class="py-4 bg-dark d-sm-flex justify-content-center">
             <!-- Put anything you want here! The spacer below with inline CSS is just for demo purposes!-->
-            <div style="height: 20rem"></div>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/Dp8w8kUhRQg" title="Plenum Introduction Video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
         <!-- Content section-->
-        <section class="py-5">
+        <section class="py-3">
             <div class="container my-5">
                 <div class="row justify-content-center">
                     <div class="col-lg-6">
-                        <h2>Join Us!</h2>
-                        <p class="lead">The background images used in this template are sourced from Unsplash and are open source and free to use.</p>
-                        <p class="mb-0">I can't tell you how many people say they were turned off from science because of a science teacher that completely sucked out all the inspiration and enthusiasm they had for the course.</p>
+                        <h2 class="py-3">Join our Discord Channel & Instagram!</h2>
+                        <p class="lead">Need help on academic work or have questions concerning the Geography Department? Join our Discord and follow us on Instagram to stay up-to-date on the most recent events!</p>
+                        <div class = "d-sm-flex justify-content-center">
+                        <a href="https://discord.gg/WbUJNTjE" target="_blank"><i id="discord" class="fab fa-discord fa-7x px-4"></i></a>
+                        <a href="https://www.instagram.com/uw_plenum/" target="_blank"><i id="insta" class="fab fa-instagram fa-7x px-4"></i></a>
+                        </div> 
                     </div>
                 </div>
             </div>

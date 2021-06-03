@@ -4,4 +4,4 @@
 * Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-full-width-pics/blob/master/LICENSE)
 */
 // This file is intentionally blank
-// Use this file to add JavaScript to your project
+// Use this file to add JavaScript to your projectwindow.onscroll = function() {scrollFunction()};
